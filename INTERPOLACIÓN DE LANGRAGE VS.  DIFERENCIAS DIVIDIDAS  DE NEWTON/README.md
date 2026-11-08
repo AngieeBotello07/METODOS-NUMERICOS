@@ -1,10 +1,11 @@
 # Práctica: Interpolación de Lagrange vs. Diferencias Divididas de Newton
 
-**Asignatura:** Métodos Numéricos (SCC-1017)  
-**Docente:** Víctor Hugo Vásquez Herrera  
-**Institución:** Instituto Tecnológico Superior de Xalapa  
-**Carrera:** Ingeniería en Sistemas Computacionales  
-
+**Asignatura:** Métodos Numéricos (SCC-1017).  
+**Docente:** Víctor Hugo Vásquez Herrera.  
+**Institución:** Instituto Tecnológico Superior de Xalapa.  
+**Carrera:** Ingeniería en Sistemas Computacionales.  
+**Alumna:** María de los Angeles Rocha Botello.
+** 3° "B"   SABATINO    ISC
 ---
 
 ## 📝 Descripción del Proyecto
