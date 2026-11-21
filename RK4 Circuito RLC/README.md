@@ -6,8 +6,6 @@ Implementación en **Java** del método numérico de **Runge-Kutta de 4to Orden 
 
 ## Datos Institucionales y del Docente
 
-| Campo | Información |
-| :--- | :--- |
 | **Escuela** | Instituto Tecnológico Superior de Xalapa (**ITSX**) |
 | **Carrera** | **Ingeniería en Sistemas Computacionales (ISC)** |
 | **Asignatura** | SCC-1017 Métodos Numéricos |
@@ -94,4 +92,4 @@ java RK4CircuitoRLC
 
 ## 👩‍💻 Autoría
 
-Desarrollado por **María de los Angeles Rocha Botello** (3° "B" - ISC, ITSX) bajo la cátedra del **Ing. Víctor Hugo Vásquez Herrera**
+Desarrollado por **María Fátima Sánchez Landa**,**María de los Angeles Rocha Botello** y **Óscar Lozada Vargas** (3° "B" - ISC, ITSX) bajo la cátedra del **Ing. Víctor Hugo Vásquez Herrera**
