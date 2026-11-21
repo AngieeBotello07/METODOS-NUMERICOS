@@ -6,7 +6,9 @@ Implementación en **Java** del método numérico de **Runge-Kutta de 4to Orden 
 
 ## Datos Institucionales y del Docente
 
-| **Escuela** | Instituto Tecnológico Superior de Xalapa (**ITSX**) |
+| Campo | Información |
+| :--- | :--- |
+| **Institución** | Instituto Tecnológico Superior de Xalapa (**ITSX**) |
 | **Carrera** | **Ingeniería en Sistemas Computacionales (ISC)** |
 | **Asignatura** | SCC-1017 Métodos Numéricos |
 | **Tema** | 6.3 Sistemas de EDOs y RK4 Vectorial |
