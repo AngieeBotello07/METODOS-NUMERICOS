@@ -8,7 +8,7 @@ Implementación en **Java** del método numérico de **Runge-Kutta de 4to Orden 
 
 | Campo | Información |
 | :--- | :--- |
-| **Institución** | Instituto Tecnológico Superior de Xalapa (**ITSX**) |
+| **Escuela** | Instituto Tecnológico Superior de Xalapa (**ITSX**) |
 | **Carrera** | **Ingeniería en Sistemas Computacionales (ISC)** |
 | **Asignatura** | SCC-1017 Métodos Numéricos |
 | **Tema** | 6.3 Sistemas de EDOs y RK4 Vectorial |
@@ -58,9 +58,8 @@ $$
 * Tener instalado el **Java Development Kit (JDK 8 o superior)** (`javac` y `java` disponibles en el `PATH` del sistema).
 
 ### 2. Clonar el repositorio
-```bash
-git clone <URL_DEL_REPOSITORIO_GITHUB>
-cd <NOMBRE_DE_LA_CARPETA>
+```
+(https://github.com/AngieeBotello07/METODOS-NUMERICOS/tree/main/RK4%20Circuito%20RLC)
 ```
 
 ### 3. Compilar el programa
