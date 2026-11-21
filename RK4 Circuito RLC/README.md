@@ -1,0 +1,98 @@
+# SCC-1017 Métodos Numéricos — Actividad Tema 6.3: Sistemas de EDOs y RK4 Vectorial (Circuito RLC)
+
+Implementación en **Java** del método numérico de **Runge-Kutta de 4to Orden (RK4) Vectorial** para simular la respuesta libre de un circuito eléctrico **RLC serie** mediante su transformación a un sistema equivalente de ecuaciones diferenciales ordinarias de primer orden.
+
+---
+
+## Datos Institucionales y del Docente
+
+| Campo | Información |
+| :--- | :--- |
+| **Institución** | Instituto Tecnológico Superior de Xalapa (**ITSX**) |
+| **Carrera** | **Ingeniería en Sistemas Computacionales (ISC)** |
+| **Asignatura** | SCC-1017 Métodos Numéricos |
+| **Tema** | 6.3 Sistemas de EDOs y RK4 Vectorial |
+| **Docente Titular** | **Víctor Hugo Vásquez Herrera** (`victor.vasquez@itsx.edu.mx`) |
+| **Ubicación** | Xalapa-Enríquez, Veracruz, México |
+
+---
+
+## Trabajo en Equipo — Integrantes
+
+* **Óscar Lozada Vargas**
+* **María de los Angeles Rocha Botello**
+* **María Fátima Sánchez Landa**
+
+---
+
+## Modelo Matemático Implementado
+
+Para un circuito RLC serie en respuesta libre con $L = 1\text{ H}$, $R = 0.4\text{ }\Omega$ y $C = 1\text{ F}$:
+
+$$q''(t) + 0.4q'(t) + q(t) = 0, \quad q(0) = 1.0\text{ C}, \quad q'(0) = 0.0\text{ A}$$
+
+Definiendo las variables de estado $y_1(t) = q(t)$ (carga) y $y_2(t) = q'(t)$ (corriente), se obtiene el sistema vectorial de primer orden:
+
+$$
+\begin{cases}
+\dfrac{dy_1}{dt} = y_2 \\[8pt]
+\dfrac{dy_2}{dt} = -y_1 - 0.4y_2
+\end{cases}
+\quad \text{con } \vec{Y}(0) = \begin{bmatrix} 1.0 \\ 0.0 \end{bmatrix}
+$$
+
+---
+
+## Estructura del Repositorio
+
+```text
+├── RK4CircuitoRLC.java    # Código fuente en Java con el integrador RK4 vectorial
+└── README.md              # Documentación del proyecto, integrantes e instrucciones de ejecución
+```
+
+---
+
+## Instrucciones de Clonación, Compilación y Ejecución desde Terminal
+
+### 1. Requisitos previos
+* Tener instalado el **Java Development Kit (JDK 8 o superior)** (`javac` y `java` disponibles en el `PATH` del sistema).
+
+### 2. Clonar el repositorio
+```bash
+git clone <URL_DEL_REPOSITORIO_GITHUB>
+cd <NOMBRE_DE_LA_CARPETA>
+```
+
+### 3. Compilar el programa
+```bash
+javac RK4CircuitoRLC.java
+```
+
+### 4. Ejecutar la simulación
+```bash
+java RK4CircuitoRLC
+```
+
+---
+
+## Ejemplo de Salida en Pantalla ($h = 0.2$, $n = 25$ puntos)
+
+```text
+	 t_n	 y1 (Carga)	 y2 (Corr)
+-----------------------------------------------
+0	 0.00	 1.000000	 0.000000
+1	 0.20	 0.980643	 -0.190814
+2	 0.40	 0.925566	 -0.356343
+3	 0.60	 0.840033	 -0.493280
+4	 0.80	 0.729992	 -0.599581
+5	 1.00	 0.601829	 -0.674393
+...
+24	 4.80	 0.047241	 0.417684
+25	 5.00	 0.130220	 0.409004
+```
+
+
+
+## 👩‍💻 Autoría
+
+Desarrollado por **María de los Angeles Rocha Botello** (3° "B" - ISC, ITSX) bajo la cátedra del **Ing. Víctor Hugo Vásquez Herrera**
